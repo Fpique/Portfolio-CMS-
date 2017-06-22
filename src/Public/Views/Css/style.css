@@ -1,0 +1,127 @@
+header {
+	height : 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black ;
+     color: white;
+}
+
+header span {
+	display: none;
+}
+
+footer{
+	background:#ccc;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding-top:50px;
+	height:50px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bolder;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	list-style: none;
+	padding-left: 0;
+	padding-left: 15px;
+}
+
+header ul li {
+	padding-left: 15px;
+}
+
+header img {
+	padding-left: 15px;
+}
+
+header h3 {
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+main {
+	background-color: transparent;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items : center;	
+	height: 772px;
+}
+
+body {
+color: white;
+overflow: hidden;
+background-image:url(../Images/code.jpg);
+background-repeat: no-repeat; 
+margin:0;
+}
+
+a:link {
+    color: white;
+}
+
+.border {
+	border: 3px white solid;
+	font-size: 50px;
+	margin: 0;
+	text-align: center;
+}
+
+
+.typewriter h1 {
+  background-color: transparent;
+  font-size: 50px;
+  color: white;
+  font-family: monospace;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  overflow: hidden; 
+
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  
+}
+
+@media all and (max-width: 800px) {
+	header ul {
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	}
+}
+
+
+@media all and (max-width: 800px) {
+	main .typewriter h1 {
+	letter-spacing: .0em;
+}
+}

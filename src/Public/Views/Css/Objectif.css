@@ -1,0 +1,105 @@
+header {
+	height : 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black ;
+     color: white;
+}
+
+footer{
+	background:#ccc;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding-top:50px;
+	height:50px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bolder;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	list-style: none;
+	padding-left: 0;
+	padding-left: 15px;
+}
+
+header ul li {
+	padding-left: 15px;
+}
+
+header img {
+	padding-left: 15px;
+}
+
+header h3 {
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+main  {
+	text-shadow: 2px 2px black;
+	font-size: x-large;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-top: 25px;
+}
+
+main {
+	background-color: transparent;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items : center;	
+	height: 772px;
+	
+}
+
+body {
+color: white;
+overflow: hidden;
+background-image:url(../Images/wall.jpg);
+background-repeat: no-repeat; 
+margin:0;
+}
+
+a:link {
+    color: white;
+}
+
+.border {
+	border: 3px white solid;
+	font-size: 50px;
+margin: 0;
+	text-align: center;
+}
+
+
+@media all and (max-width: 800px) {
+	header ul {
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	}
+}
+
+
+@media all and (max-width: 800px) {
+	main .typewriter h1 {
+	letter-spacing: .0em;
+}
+}

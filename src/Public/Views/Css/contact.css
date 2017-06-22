@@ -1,0 +1,98 @@
+header {
+	height : 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black ;
+    color: white;
+}
+
+footer{
+	background:#ccc;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	padding-top:50px;
+	height:50px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bolder;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	list-style: none;
+	padding-left: 0;
+	padding-left: 15px;
+}
+
+header ul li {
+	padding-left: 15px;
+}
+
+header img {
+	padding-left: 15px;
+}
+
+header h3 {
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+#coordonnees {
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: xx-large;
+	display: flex;
+	flex-direction: columb;
+	justify-content: flex-start;
+	padding-top: 25px;
+}
+
+#ecole {
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: xx-large;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+body {
+color: white;
+overflow: hidden;
+margin:0;
+}
+
+a:link {
+    color: white;
+}
+
+.border {
+	border: 3px white solid;
+	font-size: 50px;
+	margin: 0;
+	text-align: center;
+}
+
+.background_image {
+	background-image: url("../Images/iphone.jpg");
+	width: 100%;
+	height: 700px;
+}
+}
+
+
+
+
+
